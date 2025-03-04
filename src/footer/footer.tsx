@@ -36,13 +36,18 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li className={styles.navItem}>
-                <Link className={styles.navLink} href="/community">
-                  Community & Events
-                </Link>
+                <a className={styles.navLink} href="https://givebutter.com/rainbowknights" target="_blank">
+                  Donate
+                </a>
               </li>
               <li className={styles.navItem}>
-                <a className={styles.navLink} href="#" target="_blank">
-                  Donate
+                <a className={styles.navLink} href="https://docs.google.com/forms/d/e/1FAIpQLSedVhpiIZo763_0-5K83t2F8zOoVvQsqIfVAXBINnPLb0nanA/viewform" target="_blank">
+                  Join Our Mailing List
+                </a>
+              </li>
+              <li className={styles.navItem}>
+                <a className={styles.navLink} href="https://docs.google.com/forms/d/e/1FAIpQLSf8ghOCA9rcb9bkolLSxA6TD8x0dBZLQ3NYXM_wwK9chnq8CA/viewform" target="_blank">
+                  Join Our Discord
                 </a>
               </li>
             </ul>
@@ -50,7 +55,7 @@ const Footer: React.FC = () => {
           <nav className={styles.socialNav}>
             <ul className={styles.socialNavList}>
               <li className={styles.socialNavItem}>
-                <a className={styles.socialNavLink} href="#" target="_blank">
+                <a className={styles.socialNavLink} href="https://www.facebook.com/profile.php?id=61572273041024" target="_blank">
                   <Image
                     className={styles.socialNavIcon}
                     alt="Facebook"
@@ -59,7 +64,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li className={styles.socialNavItem}>
-                <a className={styles.socialNavLink} href="#" target="_blank">
+                <a className={styles.socialNavLink} href="https://www.instagram.com/stoughtonpride" target="_blank">
                   <Image
                     className={styles.socialNavIcon}
                     alt="Instagram"

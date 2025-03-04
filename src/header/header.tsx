@@ -27,12 +27,7 @@ const Header: React.FC = () => {
               </Link>
             </li>
             <li className={styles.item}>
-              <Link className={styles.link} href="/community">
-                Community & Events
-              </Link>
-            </li>
-            <li className={styles.item}>
-              <a className={styles.buttonLink} href="#" target="_blank">
+              <a className={styles.buttonLink} href="https://givebutter.com/rainbowknights" target="_blank">
                 Donate
               </a>
             </li>

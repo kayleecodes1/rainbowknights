@@ -32,6 +32,43 @@
     line-height: 1.5;
 }
 
+.actions {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 12px;
+    column-gap: 16px;
+    margin-top: 24px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    white-space: nowrap;
+    background: #352977;
+    padding: 0 20px;
+    border-radius: 12px;
+}
+
+.buttonIconEmail {
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/email.svg) center center no-repeat;
+    background-size: contain;
+    margin-right: 12px;
+}
+
+.buttonIconDiscord {
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/discord.svg) center center no-repeat;
+    background-size: contain;
+    margin-right: 12px;
+}
+
 .photos {
     flex: 1;
     position: relative;
