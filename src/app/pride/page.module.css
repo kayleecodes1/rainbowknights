@@ -1,0 +1,12 @@
+.section {
+    background: #fff;
+    padding: 100px 0 64px;
+}
+
+.container {
+    display: block;
+    box-sizing: border-box;
+    max-width: 900px;
+    padding: 0 32px;
+    margin: 0 auto;
+}

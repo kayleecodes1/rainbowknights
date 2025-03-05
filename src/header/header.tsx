@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         </Link>
         <nav className={styles.navigation}>
           <ul className={styles.list}>
-            <li className={styles.item}>
+            {/* <li className={styles.item}>
               <Link className={styles.link} href="/">
                 About
               </Link>
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               <Link className={styles.link} href="/pride">
                 Pride
               </Link>
-            </li>
+            </li> */}
             <li className={styles.item}>
               <a className={styles.buttonLink} href="https://givebutter.com/rainbowknights" target="_blank">
                 Donate
