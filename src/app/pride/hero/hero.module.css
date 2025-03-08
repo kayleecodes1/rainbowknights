@@ -1,82 +1,28 @@
 .section {
   box-sizing: border-box;
-  height: 520px;
+  height: 200px;
   color: #fff;
   padding-top: 84px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)),
-    url(../../../assets/photos/pride-hero.jpg) no-repeat center center;
+  background: #873dff;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)),
+    url(../../../assets/photos/pride-hero.jpg) no-repeat center center; */
   background-size: cover;
 }
 
 .container {
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
   max-width: 900px;
   height: 100%;
   padding: 0 32px;
   margin: 0 auto;
 }
 
-.content {
-  align-self: center;
-  width: 440px;
-}
-
 .heading {
   font-weight: 700;
   font-size: 36px;
-  margin: 64px 0 22px;
-}
-
-.description {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-.photos {
-  flex: 1;
-  position: relative;
-}
-
-.photo {
-  position: absolute;
-  width: 320px;
-  height: 200px;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 10;
-}
-
-.photo::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(135, 61, 255, 0.2);
-}
-
-.photo1 {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%) translate(0, 20px) rotate(4deg);
-}
-
-.photo2 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) translate(75px, 0) rotate(5deg);
-}
-
-.photo3 {
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translate(-25px, 20px) rotate(-5deg);
 }
 
 @media screen and (max-width: 800px) {

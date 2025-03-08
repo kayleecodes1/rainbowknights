@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
         <div className={styles.linksColumn}>
           <nav className={styles.nav}>
             <ul className={styles.navList}>
-              {/* <li className={styles.navItem}>
+              <li className={styles.navItem}>
                 <Link className={styles.navLink} href="/">
                   About
                 </Link>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                 <Link className={styles.navLink} href="/pride">
                   Pride
                 </Link>
-              </li> */}
+              </li>
               <li className={styles.navItem}>
                 <a className={styles.navLink} href="https://givebutter.com/rainbowknights" target="_blank">
                   Donate

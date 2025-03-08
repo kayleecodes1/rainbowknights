@@ -10,6 +10,7 @@ const sen = Sen({
 export const metadata: Metadata = {
   title: "Rainbow Knights",
   description: "Connecting, nurturing, and supporting all LGBTQIA+ people in the Stoughton, Massachusetts area.",
+  icons: ['/icon.svg'],
 };
 
 export default function RootLayout({
