@@ -4,8 +4,6 @@
   color: #fff;
   padding-top: 84px;
   background: #873dff;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)),
-    url(../../../assets/photos/pride-hero.jpg) no-repeat center center; */
   background-size: cover;
 }
 
@@ -23,19 +21,5 @@
 .heading {
   font-weight: 700;
   font-size: 36px;
-}
-
-@media screen and (max-width: 800px) {
-  .section {
-    height: auto;
-    padding: 64px 0;
-  }
-
-  .content {
-    width: auto;
-  }
-
-  .photos {
-    display: none;
-  }
+  text-align: center;
 }
