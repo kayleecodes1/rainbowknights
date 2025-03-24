@@ -31,11 +31,15 @@ export default function Pride() {
               <p>
                 This year&apos;s Stoughton Pride will be held on{" "}
                 <strong>
-                  June 8th, 2025 from 1-4pm at First Parish Church
+                  June 8th, 2025 from 1-5pm at First Parish Church
                 </strong>
                 . Our Queeraoke event is tentatively scheduled for the evening
                 of June 7th, location TBD.
               </p>
+            </div>
+            <div className={styles.links}>
+              <a className={styles.link} href="/sponsor-stoughton-pride-2025.pdf" target="_blank">Sponsor Stoughton Pride 2025</a>
+              <a className={styles.link} href="https://forms.gle/Nr7r5tCdFVxp6FZJ7" target="_blank">Vendor Application Form</a>
             </div>
           </div>
         </div>
