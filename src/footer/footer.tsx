@@ -42,12 +42,17 @@ const Footer: React.FC = () => {
               </li>
               <li className={styles.navItem}>
                 <a className={styles.navLink} href="https://docs.google.com/forms/d/e/1FAIpQLSedVhpiIZo763_0-5K83t2F8zOoVvQsqIfVAXBINnPLb0nanA/viewform" target="_blank">
-                  Join Our Mailing List
+                  Join Mailing List
                 </a>
               </li>
               <li className={styles.navItem}>
                 <a className={styles.navLink} href="https://docs.google.com/forms/d/e/1FAIpQLSf8ghOCA9rcb9bkolLSxA6TD8x0dBZLQ3NYXM_wwK9chnq8CA/viewform" target="_blank">
-                  Join Our Discord
+                  Join Discord
+                </a>
+              </li>
+              <li className={styles.navItem}>
+                <a className={styles.navLink} href="https://www.bonfire.com/store/rainbow-knights" target="_blank">
+                  Buy Merch
                 </a>
               </li>
             </ul>

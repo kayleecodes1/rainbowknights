@@ -17,7 +17,7 @@ export default function Hero() {
               target="_blank"
             >
               <div className={styles.buttonIconEmail}></div>
-              <span>Join Our Mailing List</span>
+              <span>Join Mailing List</span>
             </a>
             <a
               className={styles.button}
@@ -25,7 +25,15 @@ export default function Hero() {
               target="_blank"
             >
               <div className={styles.buttonIconDiscord}></div>
-              <span>Join Our Discord</span>
+              <span>Join Discord</span>
+            </a>
+            <a
+              className={styles.button}
+              href="https://www.bonfire.com/store/rainbow-knights"
+              target="_blank"
+            >
+              <div className={styles.buttonIconMerch}></div>
+              <span>Buy Merch</span>
             </a>
           </div>
         </div>
