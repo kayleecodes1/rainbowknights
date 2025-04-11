@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "@/header/header";
 import Footer from "@/footer/footer";
 import Hero from "./hero/hero";
+import Sponsors from "./sponsors/sponsors";
 import prideJpeg from "@/assets/photos/pride-hero.jpg";
 import styles from "./page.module.css";
 
@@ -38,11 +39,24 @@ export default function Pride() {
               </p>
             </div>
             <div className={styles.links}>
-              <a className={styles.link} href="/sponsor-stoughton-pride-2025.pdf" target="_blank">Sponsor Stoughton Pride 2025</a>
-              <a className={styles.link} href="https://forms.gle/Nr7r5tCdFVxp6FZJ7" target="_blank">Vendor Application Form</a>
+              <a
+                className={styles.link}
+                href="/sponsor-stoughton-pride-2025.pdf"
+                target="_blank"
+              >
+                Sponsor Stoughton Pride 2025
+              </a>
+              <a
+                className={styles.link}
+                href="https://forms.gle/Nr7r5tCdFVxp6FZJ7"
+                target="_blank"
+              >
+                Vendor Application Form
+              </a>
             </div>
           </div>
         </div>
+        <Sponsors />
       </main>
       <Footer />
     </div>

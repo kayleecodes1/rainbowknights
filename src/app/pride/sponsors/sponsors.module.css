@@ -1,0 +1,48 @@
+.section {
+  background: #f3f3f7;
+  padding: 64px 0;
+}
+
+.container {
+  display: block;
+  box-sizing: border-box;
+  max-width: 900px;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.tierHeading {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding: 6px 12px;
+  background: #ddd;
+  margin: 48px 0;
+}
+
+.sponsorList {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.sponsorItem {
+  font-size: 18px;
+}
+
+.sponsorImage {
+  max-width: 300px;
+  height: auto;
+}
