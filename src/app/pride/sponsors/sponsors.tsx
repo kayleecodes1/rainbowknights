@@ -20,6 +20,11 @@ export default function Hero() {
           <li className={styles.sponsorItem}>Betsy Maguire</li>
           <li className={styles.sponsorItem}>Caroline Sprague</li>
           <li className={styles.sponsorItem}>Amy White</li>
+          <li className={styles.sponsorItem}>Gretchen Fulham</li>
+          <li className={styles.sponsorItem}>Jenna Knasin</li>
+          <li className={styles.sponsorItem}>Andrew Kreckler</li>
+          <li className={styles.sponsorItem}>Brian Maguire</li>
+          <li className={styles.sponsorItem}>Lawrence Sauer</li>
         </ul>
       </div>
     </section>
