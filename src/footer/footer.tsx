@@ -31,6 +31,11 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li className={styles.navItem}>
+                <Link className={styles.navLink} href="/events">
+                  Events
+                </Link>
+              </li>
+              <li className={styles.navItem}>
                 <Link className={styles.navLink} href="/pride">
                   Pride
                 </Link>

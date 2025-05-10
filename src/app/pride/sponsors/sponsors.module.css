@@ -32,6 +32,7 @@
   list-style: none;
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   justify-content: center;
   gap: 32px;
   padding: 0;
@@ -40,6 +41,10 @@
 
 .sponsorItem {
   font-size: 18px;
+}
+
+.sponsorItem a {
+  text-decoration: underline;
 }
 
 .sponsorImage {

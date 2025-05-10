@@ -1,0 +1,25 @@
+.section {
+  box-sizing: border-box;
+  height: 200px;
+  color: #fff;
+  padding-top: 84px;
+  background: #873dff;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  height: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}

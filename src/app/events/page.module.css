@@ -1,0 +1,47 @@
+.section {
+  background: #fff;
+  padding: 64px 0 64px;
+}
+
+.container {
+  display: block;
+  box-sizing: border-box;
+  max-width: 900px;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.event {
+  
+}
+
+.eventTitle {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.eventDate {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.eventDescription {
+  
+}
+
+.eventDescription p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}

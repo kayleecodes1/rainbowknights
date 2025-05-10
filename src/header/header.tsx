@@ -22,6 +22,11 @@ const Header: React.FC = () => {
               </Link>
             </li>
             <li className={styles.item}>
+              <Link className={styles.link} href="/events">
+                Events
+              </Link>
+            </li>
+            <li className={styles.item}>
               <Link className={styles.link} href="/pride">
                 Pride
               </Link>
