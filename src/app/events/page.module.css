@@ -18,7 +18,7 @@
 }
 
 .event {
-  
+
 }
 
 .eventTitle {
@@ -35,13 +35,39 @@
   margin-bottom: 12px;
 }
 
+.eventLocation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.eventLocation::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/map-pin.svg) center center no-repeat;
+    background-size: contain;
+    margin-right: 6px;
+}
+
 .eventDescription {
   
 }
 
 .eventDescription p {
   margin: 0;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5;
-  margin-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+.eventPoster {
+  margin-top: 32px;
+}
+
+.eventPoster img {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
 }
