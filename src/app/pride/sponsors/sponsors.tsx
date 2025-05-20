@@ -3,6 +3,7 @@ import Link from "next/link";
 import abingtonBankPng from "@/assets/sponsors/abington-bank-logo.png";
 import elevateCounselingPng from "@/assets/sponsors/elevate-counseling-services-logo.png";
 import ikeaPng from "@/assets/sponsors/ikea.png";
+import southShoreBankPng from "@/assets/sponsors/south-shore-bank.png";
 import styles from "./sponsors.module.css";
 
 export default function Hero() {
@@ -29,6 +30,7 @@ export default function Hero() {
               />
             </Link>
           </li>
+          <li className={styles.sponsorItem}>Jane Rothenberg-Simmons</li>
         </ul>
         <h3 className={styles.tierHeading}>Stoughton Star</h3>
         <ul className={styles.sponsorList}>
@@ -42,6 +44,15 @@ export default function Hero() {
             </Link>
           </li>
           <li className={styles.sponsorItem}>Sue Harrington</li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://www.southshorebank.com" target="_blank">
+              <Image
+                className={styles.sponsorImage}
+                src={southShoreBankPng}
+                alt="South Shore Bank"
+              />
+            </Link>
+          </li>
         </ul>
         <h3 className={styles.tierHeading}>Honorary Knight Donors</h3>
         <ul className={styles.sponsorList}>
@@ -71,6 +82,9 @@ export default function Hero() {
           </li>
           <li className={styles.sponsorItem}>Beth Dodd</li>
           <li className={styles.sponsorItem}>Kaylee Mavis</li>
+          <li className={styles.sponsorItem}>Madeline Avina</li>
+          <li className={styles.sponsorItem}>Bookworm Quincy</li>
+          <li className={styles.sponsorItem}>Scott Minto</li>
         </ul>
       </div>
     </section>
