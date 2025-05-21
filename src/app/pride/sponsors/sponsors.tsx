@@ -85,6 +85,7 @@ export default function Hero() {
           <li className={styles.sponsorItem}>Madeline Avina</li>
           <li className={styles.sponsorItem}>Bookworm Quincy</li>
           <li className={styles.sponsorItem}>Scott Minto</li>
+          <li className={styles.sponsorItem}>Mad Mama Vintage</li>
         </ul>
       </div>
     </section>
