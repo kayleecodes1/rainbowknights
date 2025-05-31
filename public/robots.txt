@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.rainbowknights.org
+
+# Sitemaps
+Sitemap: https://www.rainbowknights.org/sitemap.xml
