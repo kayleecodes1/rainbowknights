@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import abingtonBankPng from "@/assets/sponsors/abington-bank-logo.png";
+import cleanHarborsPng from "@/assets/sponsors/clean-harbors.png";
+import easternBankPng from "@/assets/sponsors/eastern-bank.png";
 import elevateCounselingPng from "@/assets/sponsors/elevate-counseling-services-logo.png";
 import ikeaPng from "@/assets/sponsors/ikea.png";
+import sdioJpg from "@/assets/sponsors/sdio.jpg";
 import southShoreBankPng from "@/assets/sponsors/south-shore-bank.png";
 import styles from "./sponsors.module.css";
 
@@ -18,6 +21,15 @@ export default function Hero() {
               <Image className={styles.sponsorImage} src={ikeaPng} alt="IKEA" />
             </Link>
           </li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://www.easternbank.com/" target="_blank">
+              <Image
+                className={styles.sponsorImage}
+                src={easternBankPng}
+                alt="Eastern Bank"
+              />
+            </Link>
+          </li>
         </ul>
         <h3 className={styles.tierHeading}>Community Champion</h3>
         <ul className={styles.sponsorList}>
@@ -31,6 +43,15 @@ export default function Hero() {
             </Link>
           </li>
           <li className={styles.sponsorItem}>Jane Rothenberg-Simmons</li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://www.cleanharbors.com/" target="_blank">
+              <Image
+                className={styles.sponsorImage}
+                src={cleanHarborsPng}
+                alt="Clean Harbors"
+              />
+            </Link>
+          </li>
         </ul>
         <h3 className={styles.tierHeading}>Stoughton Star</h3>
         <ul className={styles.sponsorList}>
@@ -50,6 +71,15 @@ export default function Hero() {
                 className={styles.sponsorImage}
                 src={southShoreBankPng}
                 alt="South Shore Bank"
+              />
+            </Link>
+          </li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://www.stoughtondiversity.org" target="_blank">
+              <Image
+                className={styles.sponsorImageTall}
+                src={sdioJpg}
+                alt="Stoughton Diversity & Inclusion Organization"
               />
             </Link>
           </li>
@@ -83,9 +113,28 @@ export default function Hero() {
           <li className={styles.sponsorItem}>Beth Dodd</li>
           <li className={styles.sponsorItem}>Kaylee Mavis</li>
           <li className={styles.sponsorItem}>Madeline Avina</li>
-          <li className={styles.sponsorItem}>Bookworm Quincy</li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://www.bookwormquincy.com" target="_blank">
+              Bookworm Quincy
+            </Link>
+          </li>
           <li className={styles.sponsorItem}>Scott Minto</li>
-          <li className={styles.sponsorItem}>Mad Mama Vintage</li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://www.madmamavintage.com/" target="_blank">
+              Mad Mama Vintage
+            </Link>
+          </li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://www.facebook.com/ShangoCreations" target="_blank">
+              Shango Creations
+            </Link>
+          </li>
+          <li className={styles.sponsorItem}>
+            <Link href="https://stoughtonoasis.org" target="_blank">
+              Stoughton Oasis Coalition
+            </Link>
+          </li>
+          <li className={styles.sponsorItem}>Pamela Carr</li>
         </ul>
       </div>
     </section>

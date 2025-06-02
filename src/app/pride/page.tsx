@@ -34,8 +34,8 @@ export default function Pride() {
                 <strong>
                   June 8th, 2025 from 1-5pm at First Parish Church
                 </strong>
-                . Our Queeraoke event is tentatively scheduled for the evening
-                of June 7th, location TBD.
+                . Our Queeraoke event is scheduled for the evening
+                of June 7th at Toffee Social.
               </p>
             </div>
             <div className={styles.links}>
