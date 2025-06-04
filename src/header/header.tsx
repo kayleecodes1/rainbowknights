@@ -58,7 +58,13 @@ const Header: React.FC = () => {
             </ul>
           </nav>
           <nav className={styles.mobileNavigation}>
-            <button className={styles.mobileDonateButton}>Donate</button>
+          <a
+                className={styles.mobileDonateButton}
+                href="https://givebutter.com/rainbowknights"
+                target="_blank"
+              >
+                Donate
+              </a>
             <button
               className={styles.mobileMenuButton}
               onClick={openMobileMenu}
