@@ -1,72 +1,114 @@
 .header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 84px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 84px;
 }
 
 .container {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: 32px;
-    max-width: 900px;
-    height: 100%;
-    padding: 0 32px;
-    margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 32px;
+  max-width: 900px;
+  height: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
 }
 
 .logo {
-    flex-shrink: 0;
-    width: auto;
-    height: 54px;
+  flex-shrink: 0;
+  width: auto;
+  height: 54px;
 }
 
 .navigation {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .list {
-    list-style: none;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: 24px;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 24px;
 }
 
-.item {}
+.item {
+}
 
 .link {
-    font-weight: 700;
-    font-size: 20px;
-    color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
 }
 
 .buttonLink {
-    display: flex;
-    align-items: center;
-    height: 40px;
-    font-weight: 700;
-    font-size: 20px;
-    color: #fff;
-    background: #101066;
-    padding: 0 24px;
-    border-radius: 12px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  background: #101066;
+  padding: 0 24px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.mobileNavigation {
+  display: none;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.mobileDonateButton {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #101066;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.mobileMenuButton {
+  width: 32px;
+  height: 32px;
+  background: url("../assets/menu.svg") no-repeat center center;
+  background-size: contain;
+  border: 0;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
-    .logo {
-        height: 40px;
-    }
+  .logo {
+    height: 40px;
+  }
 
-    .link {
-        font-size: 16px;
-    }
+  .link {
+    font-size: 16px;
+  }
 
-    .buttonLink {
-        height: 32px;
-        font-size: 16px;
-        padding: 0 16px;
-    }
+  .buttonLink {
+    height: 32px;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .navigation {
+    display: none;
+  }
+
+  .mobileNavigation {
+    display: flex;
+  }
 }

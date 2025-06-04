@@ -1,0 +1,77 @@
+.root {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;;
+    background-color: #101066;
+    padding: 110px 32px 32px 32px;
+    transition: left 200ms ease-in-out;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.isOpen {
+    left: 0;
+}
+
+.closeButton {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    width: 32px;
+    height: 32px;
+    background: url('../../assets/close.svg') no-repeat center center;
+    background-size: contain;
+    border: 0;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.nav {}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 24px;
+}
+
+.listItem {}
+
+.listLink {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.socialNav {
+    margin-top: 24px;
+}
+
+.socialNavList {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 64px;
+}
+
+.socialNavItem {}
+
+.socialNavLink {}
+
+.socialNavIcon {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 560px) {
+    .root {
+        display: block;
+    }
+}
